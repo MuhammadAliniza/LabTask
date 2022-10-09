@@ -18,5 +18,21 @@ public class Main {
         CpnCalculator cpn = new CpnCalculator();
         cpn.calculator();
 */
+        //3.    Create a program using every single operator we have learned till now.
+
+        Operators operators = new Operators();
+
+        //  Arithmetic Operators
+        operators.arithmetic(12,33);
+
+        //  Logical Operators
+        operators.logical(32, 11);
+
+        //  Assignment operators
+        operators.arithmetic(12, 21);
+
+        //  Increment & decrement Operators
+        operators.increment_decrement(12,7);
+
     }
 }
