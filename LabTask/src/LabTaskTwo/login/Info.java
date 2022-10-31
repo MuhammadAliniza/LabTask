@@ -81,51 +81,51 @@ public class Info {
 
 
     }
-
     public void setUser_name1(String user_name,int n) {
-        if(id==0) {
-            this.user_name1 = user_name;
-        } else if (id==1) {
-            this.user_name2 = user_name;
-        } else if (id==2) {
-            this.user_name3 = user_name;
-        } else if (id==3) {
-            this.user_name4 = user_name;
-        } else if (id==4) {
-            this.user_name5 = user_name;
+            if(id==0) {
+                this.user_name1 = user_name;
+            } else if (id==1) {
+                this.user_name2 = user_name;
+            } else if (id==2) {
+                this.user_name3 = user_name;
+            } else if (id==3) {
+                this.user_name4 = user_name;
+            } else if (id==4) {
+                this.user_name5 = user_name;
+            }
         }
-    }
 
 
-    public void setPass1(String pass,int n) {
-        if (id==0){
-            this.pass1 = pass;
-        } else if (id==1) {
-            this.pass2 = pass;
-        } else if (id==2) {
-            this.pass3 = pass;
-        } else if (id==3) {
-            this.pass4 = pass;
-        } else if (id==4) {
-            this.pass5 = pass;
+        public void setPass1(String pass,int n) {
+            if (id==0){
+                this.pass1 = pass;
+            } else if (id==1) {
+                this.pass2 = pass;
+            } else if (id==2) {
+                this.pass3 = pass;
+            } else if (id==3) {
+                this.pass4 = pass;
+            } else if (id==4) {
+                this.pass5 = pass;
+            }
         }
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setEmail1(String email,int n) {
-        if (id==0){
-            this.email1 = email;
-        } else if (id==1) {
-            this.email2 = email;
-        } else if (id==2) {
-            this.email3 = email;
-        } else if (id==3) {
-            this.email4 = email;
-        } else if (id==4) {
-            this.email5 = email;
+        public void setId(int id) {
+            this.id = id;
         }
-    }
+
+        public void setEmail1(String email,int n) {
+            if (id == 0) {
+                this.email1 = email;
+            } else if (id == 1) {
+                this.email2 = email;
+            } else if (id == 2) {
+                this.email3 = email;
+            } else if (id == 3) {
+                this.email4 = email;
+            } else if (id == 4) {
+                this.email5 = email;
+
+            }
+        }
 }
